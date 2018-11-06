@@ -20,7 +20,7 @@ img {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   margin: 0;
   padding: 20px 0;    
@@ -28,9 +28,19 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
-p, li {
+h3{
   font-size: 16px;    
   text-align: center;
-  line-height: 2;
-  letter-spacing: 1px;
+  padding: 4px;
+}
+
+p, li {
+  font-size: 16px;    
+  text-align: left;
+  padding: 4px;
+}
+
+button {
+  margin: auto;
+  display: block;
 }
